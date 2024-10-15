@@ -6,6 +6,114 @@
     <title>dropdown list pracise</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(G.jpg) ;
+    background-size: 100%;
+    background-size:cover;
+    background-position: center;
+}
+.logo{
+    background-color:blue;
+    height:100px;
+}
+.manubar.fa{
+    margin-right:8px ;
+}
+ image{
+    align:right;
+    height: 50px;
+    width: 130px;
+}
+.manubar{
+    background-color:#335599 ;
+    text-align: center;
+}
+.manubar ul{
+    display: inline-flex;
+    color: white;
+}
+.manubar ul li{
+    margin: 15px;
+    padding: 15px;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+}
+.manubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+ .manubar ul li:hover {
+    background-color: green;
+    text-color: blu;
+}
+.manubar:hover{
+    color: blue;
+}
+.submanu11{
+    display: none;
+}
+.manubar ul li:hover .submanu11{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.manubar ul li:hover .submanu11 ul{
+    display: block;
+    margin: 10px;
+    align:left;
+}
+    
+.manubar ul li:hover .submanu11 ul {
+padding: 10px;
+padding-bottom:1px ;
+    
+}
+
+
+
+.manubar ul li:hover .submanu11{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+{
+.manubar ul li:hover .submanu11 ul{
+    display: block;
+    margin: 10px;
+ }
+.manubar ul li:hover .submanu11 ul li{
+    text-align:left;
+    padding: 10px;
+    border-bottom:1px dotted #ffffff;
+    display:block;
+    border-radius: 0;
+}
+.submanu3{
+    display: none;
+}
+
+.hi:hover. submanu3{
+    display:block;
+    position:absolute;
+    margin-top:-40px;
+    padding:10px ;
+}
+
+
+    </style>
 </head>
 <body>
     <div class="logo">
@@ -59,3 +167,4 @@
     </div>
 </body>
 </html>
+
